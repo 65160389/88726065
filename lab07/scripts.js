@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
     todos.splice(index, 1);
     renderTodoList();
     }
-    // ตรวจสอบ/ยกเลิกการเสร็จสิ้นรายการ Todo
+    // ตรวจสอบ/ยกเลิกการเสร็จสิ้นรายการ Todo ฟ
     function toggleComplete(index) {
     todos[index].completed = !todos[index].completed;
     renderTodoList();
