@@ -23,12 +23,12 @@ document.addEventListener("DOMContentLoaded", function () {
     todos.splice(index, 1);
     renderTodoList();
     }
-    // ตรวจสอบ/ยกเลิกการเสร็จสิ้นรายการ Todo ฟ
+    // ตรวจสอบ/ยกเลิกการเสร็จสิ้นรายการ Todo.
     function toggleComplete(index) {
     todos[index].completed = !todos[index].completed;
     renderTodoList();
     }
-    // แสดงรายการ Todo บนหน้าเว็บ
+    // แสดงรายการ Todo บนหน้าเว็บ.
     function renderTodoList() {
     console.log(todos);
     todoList.innerHTML = "";
